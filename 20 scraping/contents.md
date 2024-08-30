@@ -1,6 +1,6 @@
 # Scraping
 
-Is there a relationship between income inequality, population size, and wealth?
+**Is there a relationship between income inequality, population size, and wealth?**
 
 We often encounter scenarios where the data needed isn't readily available in machine-readable formats like CSV files, but rather embedded within websites. Although machine-readable data for our question exists, let's assume for this exercise that we're limited to using only Wikipedia.
 
