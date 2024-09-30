@@ -55,9 +55,6 @@ Here's a full example:
     # Set the x-ticks to be at the bin centers
     plt.xticks(bin_centers)
 
-    # Optional: label the x-ticks with the bin edges (or other relevant labels)
-    plt.xticks(bin_centers, labels=[f'{round(bin, 2)}' for bin in bin_centers])
-
     # Show plot
     plt.show()
 
