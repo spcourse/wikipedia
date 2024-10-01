@@ -10,4 +10,7 @@ The program should load the data into a Pandas DataFrame and create a scatter pl
 
 ![](final.png)
 
-Remember to exclude countries containing missing values (marked as `-1`) from your plot.
+Remarks:
+
+- Remember to exclude countries containing missing values (marked as `-1`) from your plot.
+- The plot doesn't haver to match exactly! There are a lot of edge cases that might make your results differ slightly from ours. An example of an edge case: [Oman](https://spcourse.github.io/wiki/106/index.html) mentions two Gini Coefficients in stead of one. There are many more of those cases. It is not a big deal if you don't deal with all of them correctly.
