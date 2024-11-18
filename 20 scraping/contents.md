@@ -12,9 +12,9 @@ Our goal is to use Wikipedia data to create a plot similar to this:
 
 To achieve this, you'll need to write a script that can extract data from a HTML source—a process known as scraping. It's important to note that many companies dislike of scraping, and take measures against it.
 
-Wikipedia doesn't specifically prohibit scraping, but to prevent any issues and ensure data consistency during your project, we've provided a bare-bones copy of the relevant webpage for you to practice on: [Fake Wiki](https://spcourse.github.io/wiki/).
+Wikipedia doesn't specifically prohibit scraping, but to prevent any issues and ensure data consistency during your project, we've provided a bare-bones copy of the relevant webpages for you to practice on: [Fake Wiki](https://spcourse.github.io/wiki/).
 
-You'll develop the script in two phases. First you focus only on GDP per capita data. After that you also include data on the Gini coefficient and population.
+You'll develop the script in two phases. First you focus only on GDP per capita data. After that you'll also include data on the Gini coefficient and population.
 
 ## Getting started
 
@@ -36,7 +36,7 @@ This assignment requires three libraries:
 
 ### Downloading Webpages
 
-First, you need to download the relevant webpage using the `requests` package. Below is a function to get you started:
+First, you need to download the relevant webpage using the `requests` package. Below are some functions to get you started:
 
     from requests import get, RequestException
     from contextlib import closing
@@ -80,7 +80,7 @@ First, you need to download the relevant webpage using the `requests` package. B
 
 ### BeautifulSoup
 
-To scrape data from webpages, we use BeautifulSoup—a Python library for extracting data from HTML and XML files. It simplifies the process of navigating, searching, and modifying the parse tree.
+To scrape data from webpages, we use BeautifulSoup — a Python library for extracting data from HTML and XML files. It simplifies the process of navigating, searching, and modifying the parse tree.
 
 Begin with the following tutorial on HTML and the DOM. Ignore any reference to JavaScript (you may replace it in your mind with BeautifulSoup), as it will not be needed in our exercises.
 
