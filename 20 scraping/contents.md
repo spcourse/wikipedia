@@ -138,7 +138,7 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 
 ### DOM inspector
 
-The DOM inspector of your web browser is your biggest ally. In Chrome you can right-click an element and click 'inspect', or you can use F12 (fn+F12 on most laptops) to toggle the inspector. All popular browsers have similar functionality.
+The DOM inspector of your web browser is your biggest ally. In Chrome and Firefox you can right-click an element and click 'inspect', or you can use F12 (fn+F12 on most laptops) to toggle the inspector. All popular browsers have similar functionality.
 
 ### Come to class
 
@@ -148,3 +148,7 @@ If you encounter difficulties, attending class can often help to find quick solu
 
 - Converting the GDP information to an integer or float is not trivial; consider how you might accomplish this.
 - Not every row contains the same number of cells due to missing data, which may complicate finding the cell that contains the World Bank GDP figure.
+
+### Use comments!
+
+Keep in mind that the use of BeautifulSoup will not necessarily result in beautiful code. In fact, data collection through scraping (as well as taking ingredients out of a soup) is known to be a very messy practice. You might need to heavily comment code to make sure that it is understandable!
