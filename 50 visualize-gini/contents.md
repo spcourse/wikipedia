@@ -14,4 +14,4 @@ In the plot below we give an example, where we show GDP per capita on the horizo
 
 > Remember to exclude countries containing missing values (marked as `-1`) from your plot.
 
-Note that even if you take the same approach as us, your plot doesn't have to match exactly! There are a lot of edge cases that might make your results differ slightly from ours. An example of an edge case: [Oman](https://spcourse.github.io/wiki/106/index.html) mentions two Gini Coefficients in stead of one. There are many more of those cases. It is not a big deal if you don't deal with all of them.
+Note that even if you take the exact same approach as us, your plot doesn't have to match exactly! There are a lot of edge cases that might make your results differ slightly from ours. An example of an edge case: [Oman](https://spcourse.github.io/wiki/106/index.html) mentions two Gini Coefficients in stead of one. There are many more of those cases. It is not a big deal if you don't deal with all of them.
