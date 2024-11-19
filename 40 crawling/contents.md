@@ -4,11 +4,7 @@ We began with the question: **Is there a relationship between income inequality,
 
 The challenge is that the webpage we scraped in the previous assignment doesn’t provide this information directly. However, the links in the first column of the table on that page redirect to pages holding more economic information about individual countries. For most countries, though not all of them, this page contains the population size and Gini coefficient.
 
-So for each country in the list we need to follow the relevant link, and scrape the each webpage for information on the Gini coefficient and populations size.
-
-To gather the data we need, we’ll follow the links to the webpages for each country in our list and scrape the required information.
-
-This process of navigating through multiple pages and extracting their content is known as *web crawling*.
+So for each country in the list we need to follow the relevant link, and scrape the each webpage for information on the Gini coefficient and populations size. This process of navigating through multiple pages and extracting their content is known as *web crawling*.
 
 It's always good practice to break up big problems into smaller ones, so we're going to break up this assignment into two steps:
 
