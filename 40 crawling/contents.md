@@ -72,6 +72,15 @@ The output `.csv` file should be formatted as follows (but with all 222 countrie
     Syria,421,https://spcourse.github.io/wiki/271/index.html,18604031,-1.0
     Burundi,200,https://spcourse.github.io/wiki/272/index.html,-1,-1.0
 
-## Hints
+## Important notes
 
-<!-- TODO add piece here on exceptions -->
+Before writing all the code for scraping, take some time to analyze how the data is most commonly displayed. Open a few pages, observe their structure, and think through your approach. This approach will save you time and help you design a more reliable scraper.
+
+Keep in mind that some countries present exceptions to the most common layout. Some examples are:
+
+- **Unusual Notation**: Numbers written in formats like `xxx.xxx.xxx` (like Iran) or `x.x million` (like Cyprus, Armenia, and more).  
+- **Lists of Values**: Some countries provide multiple population figures.
+- **Additional Information**: Some entries include extra details, such as years, before (Zambia: `(2021 est)x`) or after (Madagascar: `x(2020)`) the population value.  
+- **Missing Data**: Entries marked as `N/A` or `NA` for countries like Liechtenstein, Libya, and North Korea.
+
+It’s your task to find solutions in handling these inconsistencies. One approach is to ignore all countries for which your code might crash (by using `try` and `except`) and entering `-1` for these countries. Your implementation doesn’t need to handle every edge case perfectly, but it’s important to think critically about how to address such inconsistencies effectively and design a solution that works for the majority of unexpected scenarios.
