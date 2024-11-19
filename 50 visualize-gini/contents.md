@@ -6,7 +6,7 @@ Create a program named `visualize_gini.py` that generates a plot showing the dis
 
     python visualize_gini.py gdp_per_capita3.csv
 
-The program should load the data into a Pandas DataFrame and create a plot. The resulting plot should clearly show all three variables (Gini Coefficient, Population, and GDP per capita). Save your plot as `gini_gdp_scatterplot.png`.
+The program should load the data into a Pandas DataFrame and create a plot. The resulting plot should clearly show all three variables (Gini Coefficient, Population, and GDP per capita). Save your plot as `gini_gdp_population.png`.
 
 In the plot below we give an example, where we show GDP per capita on the horizontal axis, Gini Coefficient on the vertical axis and made the size of the marker represent the size of the country. Feel free to be creative and show the results in a different way.
 
