@@ -113,7 +113,7 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 
       python scraper.py gdp_per_capita.csv
 
-<!-- > This exercise ... design TODO NOTE -->
+> This exercise is the perfect opportunity to practice dividing your logic into reusable functions. This approach will not only help your code look cleaner and easier to understand, but will also save you a lot of effort in the next part of this module. Of course, you should always focus on getting your code to work before refactoring.
 
 ## Important notes
 
