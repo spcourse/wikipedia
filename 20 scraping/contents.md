@@ -55,7 +55,7 @@ Begin with watching the following tutorial on HTML and the DOM. Ignore any refer
 
 ![embed](https://www.youtube.com/embed/ng2o98k983k)
 
-### Building `scraper.py`
+## Building `scraper.py`
 
 Start by writing a script in a file named (`scraper.py`) that loads the correct Wiki address, uses the `simple_get` function to download the webpage, parses the HTML with BeautifulSoup, and extracts the header text:
 
@@ -97,21 +97,22 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 
 - Extend `scraper.py` to locate GDP per capita information (**using the World Bank source**) in the DOM and create a Pandas DataFrame with two columns: `'country-name'` and `'gdp-per-capita'`. The DataFrame should then be saved to a CSV file, formatted as follows (but with all 222 countries listed):
 
-    country-name,gdp-per-capita
-    Monaco,240862
-    Liechtenstein,187267
-    Luxembourg,128259
-    ...
-    Afghanistan,353
-    Syria,421
-    Burundi,200
+      country-name,gdp-per-capita
+      Monaco,240862
+      Liechtenstein,187267
+      Luxembourg,128259
+      ...
+      Afghanistan,353
+      Syria,421
+      Burundi,200
 
 - If the GDP information is missing you should set the value to `-1`.
 - Make sure that the output csv file can be specified as a command line argument by using `argparse`. You should be able to call the script as follows:
 
-    python scraper.py name-of-output-file.csv
+      python scraper.py name-of-output-file.csv
 
 ## Hints
+
 ### DOM inspector
 
 The DOM inspector of your web browser is your biggest ally. In Chrome and Firefox you can right-click an element and click 'inspect', or you can use F12 (fn+F12 on most laptops) to toggle the inspector. All popular browsers have similar functionality.
