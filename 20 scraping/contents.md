@@ -111,11 +111,11 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 - If the GDP information is missing you should set the value to `-1`.
 - Make sure that the output csv file can be specified as a command line argument by using `argparse`. You should be able to call the script as follows:
 
-      python scraper.py name-of-output-file.csv
+      python scraper.py gdp_per_capita.csv
 
-> This exercise ... design TODO
+<!-- > This exercise ... design TODO NOTE -->
 
-## Hints
+## Important notes
 
 ### DOM inspector
 
