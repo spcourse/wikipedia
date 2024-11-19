@@ -95,7 +95,9 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 
 ## Specification
 
-- Extend `scraper.py` to locate GDP per capita information (**using the World Bank source**) in the DOM and create a Pandas DataFrame with two columns: `'country-name'` and `'gdp-per-capita'`. The DataFrame should then be saved to a CSV file, formatted as follows (but with all 222 countries listed):
+- Extend `scraper.py` to locate and extract GDP per capita information (**using the World Bank source**) in the DOM
+- Create a Pandas DataFrame with two columns: `'country-name'` and `'gdp-per-capita'`.
+- The DataFrame should be saved to a CSV file, formatted as follows (but with all 222 countries listed):
 
       country-name,gdp-per-capita
       Monaco,240862
@@ -111,20 +113,22 @@ To extract the text from a DOM element you can use the `text`-field. For instanc
 
       python scraper.py name-of-output-file.csv
 
+> This exercise ... design TODO
+
 ## Hints
 
 ### DOM inspector
 
-The DOM inspector of your web browser is your biggest ally. In Chrome and Firefox you can right-click an element and click 'inspect', or you can use F12 (fn+F12 on most laptops) to toggle the inspector. All popular browsers have similar functionality.
-
-### Come to class
-
-If you encounter difficulties, attending class can often help to find quick solutions to common issues. This is generally good advice, but specifically so for this assignment.
+The DOM inspector of your web browser is your biggest ally! In Chrome and Firefox you can right-click an element and click 'inspect', or you can use F12 (fn+F12 on most laptops) to toggle the inspector. All popular browsers have similar functionality.
 
 ### Potential Challenges
 
 - Converting the GDP information to an integer or float is not trivial; consider how you might accomplish this.
 - Not every row contains the same number of cells due to missing data, which may complicate finding the cell that contains the World Bank GDP figure.
+
+### Come to class
+
+If you encounter difficulties, attending class can often help to find quick solutions to common issues. This is generally good advice, but specifically so for this assignment.
 
 ### Use comments!
 
