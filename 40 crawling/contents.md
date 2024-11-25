@@ -36,12 +36,12 @@ The output `.csv` file should be formatted as shown below, but include all 222 c
     Syria,421,https://spcourse.github.io/wiki/271/index.html
     Burundi,200,https://spcourse.github.io/wiki/272/index.html
 
-Bear in mind that the links in the webpage are relative links (so just `29/index.html` and not `https://spcourse.github.io/wiki/29/index.html`). For the next step you will really need the full URL, so make sure to add the base URL to the relative links!
+Bear in mind that the links in the webpage are relative links (so just `29/index.html` and not `https://spcourse.github.io/wiki/29/index.html`). For the next step you will really need the full URL, so make sure to expand these relative URLs before you write the results to CSV. The outputted CSV with its URLs should then look like the example above.
 
 ### Important notes
 
-- **Relative Links:** The links in the scraped webpage are relative (e.g., `29/index.html`). You will need to prepend the base URL (`https://spcourse.github.io/wiki/`) to generate the full URL for each country.
 - **Code Reuse:** Where possible, consider importing and reusing functions from `scraper.py` instead of copying and pasting all your code. This ensures consistency and avoids duplicating code unnecessarily. You might need to refactor some of your code in your original `scraper.py` to work in both scenarios, but ultimately this should be worth it!
+- **Relative Links:** The links in the scraped webpage are relative (e.g., `29/index.html`). You will need to add the base URL (`https://spcourse.github.io/wiki/`) to generate the full URL for each country.
 
 ## Step 2, follow the links and collect data
 
