@@ -36,7 +36,7 @@ The output `.csv` file should be formatted as shown below, but include all 222 c
     Syria,421,https://spcourse.github.io/wiki/271/index.html
     Burundi,200,https://spcourse.github.io/wiki/272/index.html
 
-Bear in mind that the links in the webpage are relative links (so just `29/index.html` and not `https://spcourse.github.io/wiki/29/index.html`). For the next step you will really need the full URL, so make sure to expand these relative URLs before you write the results to CSV. The outputted CSV with its URLs should then look like the example above.
+Bear in mind that the links in the webpage are relative links (so just `29/index.html` and not `https://spcourse.github.io/wiki/29/index.html`). For the next step you will really need the full URL, so make sure to expand these relative URLs before you write the results to CSV. The outputted CSV containing these URLs should then look like the example above.
 
 ### Important notes
 
