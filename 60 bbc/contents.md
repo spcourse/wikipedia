@@ -1,4 +1,4 @@
-# Get Data from a Live Website
+# BBC
 
 The goal of this assignment is simple: write a script that scrapes information from a website of your choosing.
 
